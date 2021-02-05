@@ -1,5 +1,5 @@
 
-Create a new to microservice , that given a GET request to the /helloworld endpoint , it returns a JSON response
+Create a new microservice , that given a GET request to the /helloworld endpoint , it returns a JSON response
 
 { "hello": "world" }
 
