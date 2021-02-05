@@ -1,5 +1,5 @@
 
-Create a new to microservice to production that given a GET request to the /helloworld endpoint , it returns a JSON response
+Create a new to microservice , that given a GET request to the /helloworld endpoint , it returns a JSON response
 
 { "hello": "world" }
 
@@ -12,7 +12,7 @@ This microservice will have two components:
 
 * Web App
 
-Write a simple HTTP application in any language that listens to the port 8000. The application only needs to answer to following request:
+Write a simple HTTP application in any language that listens to the port 8000 tcp. The application only needs to answer to following request:
 
 GET /helloworld
 
@@ -24,7 +24,7 @@ $ curl http://localhost/helloworld
 { "hello": "world" }
 
 * Web Proxy
-A reverse proxy needs to handle all the requests and send them to the backend application.
+A reverse proxy needs to handle all the requests, and send them to the backend application.
 
 Requirements for the proxy:
 
@@ -36,13 +36,13 @@ We suggest to use Nginx or Apache as the proxy application, but you can use any 
 
 * Deployment
 
-Use one command to deploy all the required infrastructure for this app to work.
+Use one command , to deploy all the required infrastructure for this app to work.
 
 * Required deliverables
 
 zip with all your work.
 
-It should include a README.md. Put there precise instructions on how to use your solution. The clarity and precision of these instructions will be a key part of the test.
+It should include a README.md. Put there precise instructions , on how to use your solution. The clarity and precision of these instructions will be a key part of the test.
 
 Production.md
 
